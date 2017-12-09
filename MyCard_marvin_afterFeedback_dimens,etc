@@ -1,0 +1,42 @@
+#DIMENSIONS
+
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">30dp</dimen>
+    <dimen name="margin_extraLarge">60dp</dimen>
+    <dimen name="text_large">28sp</dimen>
+</resources>
+
+#COLORS
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F1F8E9</color>
+    <color name="colorPrimaryDark">#B2DFDB</color>
+    <color name="colorAccent">#1B5E20</color>
+    <color name="colorGreen">#1B5E20</color>
+    <color name="colorRed">#F44336</color>
+</resources>
+
+#STYLES
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
